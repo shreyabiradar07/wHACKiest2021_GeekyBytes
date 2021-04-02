@@ -6,12 +6,8 @@
 body{
  font-family: sans-serif;
 }
-:root{
- --BackgroundGradient: linear-gradient(to bottom,#dd2476,#ff512f);
- --black: #000;
-}
 nav{
- background: var(--BackgroundGradient);
+ background: #222;
  padding: 5px 20px;
 
 }
@@ -25,6 +21,7 @@ a{
 a:hover{
  text-decoration: underline;
 }
+
 .menu li{
  font-size: 1rem;
  padding: 15px 5px;
@@ -37,9 +34,6 @@ a:hover{
 .logo a{
  font-size: 20px;
 }
-/* button -> login 
-   button secondary -> signup 
-*/
 .button.secondary{
  border-bottom: 1px #444 solid;
 }
@@ -77,7 +71,9 @@ img {
  max-width: 50%;
  height: auto;
 }
-/*Media query for Tablet Menu view */
+
+
+/* Tablet Menu */
 @media all and (min-width: 468px){
  .menu{
   justify-content: center;
@@ -99,8 +95,8 @@ img {
  .button a{
   text-decoration: none;
   padding: 7px 15px;
-  background: rgb(54, 231, 63);
-  border: 1px solid #207a20;
+  background: teal;
+  border: 1px solid #006d6d;
   border-radius: 50em;
  }
  .button.secondary a{
@@ -110,14 +106,14 @@ img {
   transition: all 0.25s;
  }
  .button:not(.secondary) a:hover{
-  background: rgb(54, 231, 63);
-  border-color: #207a20;
+  background: #006d6d;
+  border-color: #005959;
  }
  .button.secondary a:hover{
-  color: rgb(144, 240, 114);
+  color: #ddd;
  }
 }
-/*Media query for Mobile Menu view */
+
 @media all and (min-width: 768px){
  .item{
   display: block;

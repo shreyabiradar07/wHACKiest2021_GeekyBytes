@@ -206,19 +206,19 @@ section{
     font-family: var(--Lobster);
   }
 
-  .purchase > h1 {
+  .services > h1 {
     padding-top: 15vmin;
     padding-bottom: 0.1em;
     font-family: var(--Fredoka);
   }
   
-  .purchase > p {
+  .services > p {
     color: var(--light-black);
     font-size: 3vmin;
     padding-bottom: 10vmin;
   }
   
-  .purchase .cards .card {
+  .services .cards .card {
     width: 22rem;
     margin: 3vmin 3vmin;
   }
@@ -286,3 +286,56 @@ section{
   .section-3 .desktop p {
     font-size: 2vmin;
   }
+  /***section 4***/
+  .section-4 .container h1 {
+    font-size: 6vmin;
+    padding-top: 14vmin;
+  }
+  
+  .section-4 .team {
+    padding: 10vmin 4vmin;
+  }
+  
+  .section-4 .card {
+    width: 22em;
+    margin-top: 10vmin;
+  }
+  
+  .section-4 .card .card-text {
+    padding: 0.5em;
+  }
+  
+  .section-4 .card-body > a {
+    font-size: 1.5em;
+  }
+  
+  .section-4 .carousel-item {
+    padding-left: 3rem;
+  }
+  
+  .border-radius {
+    border-radius: 340px;
+    width: 60%;
+  }
+  /***footer***/
+  footer {
+    background: rgba(0, 0, 0, 0.815);
+    overflow-x: hidden;
+    padding: 14vmin 18vmin;
+  }
+
+  footer input {
+    border: none !important;
+  }
+  
+  footer input::placeholder {
+    color: white !important;
+  }
+  footer .column i {
+    color: var(--bggradient);
+  }
+
+  footer .column i + i {
+    padding: 0 0.5em;
+  }
+  .show {display: block;}

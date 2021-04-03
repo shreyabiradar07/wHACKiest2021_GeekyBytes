@@ -1,11 +1,14 @@
 # wHACKiest2021_GeekyBytes [ALL-GIRLS-TEAM]
 A team of three young women present to you a website made to solve a growing concern in the post lockdown world, the mental and physical wellbeing of children affected due to the cons of online learning.
 
+We have tried and included many skills and knowledge other than the school online classes that the children need for their overall development.We say that childhood is golden age and we do not want that to be wasted out when we can make the best utilization of this time.
+
 Website link: 
  https://shreyabiradar07.github.io/wHACKiest2021_GeekyBytes/.
  
  Solution for Challenge 1:
- Added Icons under Services Component
+ Adeed app icon from: https://images.app.goo.gl/VtrxmQ9kiQC921sH8
+ Added Icons under Services Component:
  www.iconfinder.com
 
 Solution for Challenge 2:

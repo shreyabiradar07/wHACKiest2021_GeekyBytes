@@ -3,6 +3,8 @@ A team of three young women present to you a website made to solve a growing con
 
 We have tried and included many skills and knowledge other than the school online classes that the children need for their overall development.We say that childhood is golden age and we do not want that to be wasted out when we can make the best utilization of this time.
 
+We have also included activities and information about the climate change and also how the kids can help build a future against the hazardous effects of global warming and other climate issues.
+
 Website link: 
  https://shreyabiradar07.github.io/wHACKiest2021_GeekyBytes/.
  

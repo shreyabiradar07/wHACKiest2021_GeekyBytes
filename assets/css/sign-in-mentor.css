@@ -4,7 +4,7 @@
 body{
     margin-top:20px;
     color: #1a202c;
-    background:linear-gradient(to right,  #13bad4,#1353d4);
+    background:linear-gradient(to right top,  #00F260,#0575E6);
     font-family: "Fredoka One", cursive;
     text-align: left;    
 }
@@ -12,7 +12,7 @@ body{
     padding: 15px;
 }
 .breadcrumb{
-    background-color: #1353d4;
+    background-color: #138dd44d;
     
 }
 .breadcrumb-item>a{

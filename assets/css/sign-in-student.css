@@ -27,13 +27,17 @@ body{
 }
 
 .card-box {
-    background-color: #fff;
+    background-color: rgba(255, 255, 255, 0.131);
     background-clip: border-box;
     border: 1px solid #e7eaed;
     padding: 1.5rem;
     margin-bottom: 24px;
     border-radius: .25rem;
+<<<<<<< HEAD
+    color: white;
+=======
     background-color: rgba(255, 255, 255, 0.131);
+>>>>>>> 1f24b7124da73cf4ab1d9aba5c753a57853bd142
 }
 .avatar-xl {
     height: 6rem;
@@ -268,6 +272,10 @@ body{
         margin-bottom: 10px;
     }
 }
+<<<<<<< HEAD
+
+=======
+>>>>>>> 1f24b7124da73cf4ab1d9aba5c753a57853bd142
 .container{
     position: relative;
     background: rgba(255,255,255,0.1);
@@ -275,5 +283,9 @@ body{
     color:#fff;
 }
 .text-muted {
+<<<<<<< HEAD
+    color: rgb(119, 239, 243)!important;
+=======
     color: rgb(240, 239, 239)!important;
+>>>>>>> 1f24b7124da73cf4ab1d9aba5c753a57853bd142
 }

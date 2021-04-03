@@ -21,12 +21,12 @@
  <header>
   <nav class="navbar navbar-expand-lg navbar-light" >
    <div class="container-fluid">
-    <a class="navbar-brand" href="#"><img class="emoji"  src="../wHACKiest2021_GeekyBytes/assets/img/emoji-wink.svg" alt="emoji" />Bachpan</a>
+    <a class="navbar-brand" href="#" style="color: rgb(237, 237, 238);"><img class="emoji"  src="../wHACKiest2021_GeekyBytes/assets/img/emoji-wink.svg" alt="emoji" />Bachpan</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" onclick="myFunction()">
      <i class="fas fa-align-right text-dark"  ></i>
     </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
+    <div class="collapse navbar-collapse" id="navbarNav" >
      <div class="mr-auto"></div>
      <ul class="navbar-nav">
       <li class="nav-item">
@@ -34,10 +34,14 @@
       </li>
       <li class="nav-item dropdown">
           <div class="dropdown">
-                <a class="nav-link" href="#">Services</a>
+                <a class="nav-link" href="#services">Services</a>
                 <div class="dropdown-content">
-                    <a href="#">art</a>
-                    <a href="#">music</a>
+                  <a href="#music">music</a>
+                  <a href="#dance">dance</a>
+                  <a href="#public">public speaking</a>
+                  <a href="#sports">sports</a>
+                  <a href="#yoga">yoga</a>
+                  <a href="#art">art</a>
                 </div>
             </div>
       </li>
@@ -45,14 +49,15 @@
        <a class="nav-link" href="#">Pricing</a>
       </li>
       <li class="nav-item">
-       <a class="nav-link" href="#">Mentors</a>
+       <a class="nav-link" href="#mentors">Mentors</a>
       </li>
       <li class="nav-item dropdown">
         <div class="dropdown">
               <a class="nav-link" href="#"><i class="fa fa-user" aria-hidden="true"></i></a>
               <div class="dropdown-content">
                   <a href="sign-in-student.html">student</a>
-                  <a href="login.html">mentor</a>
+                  <a href="sign-in-mentor.html">mentor</a>
+                  <a href="index.html">Logout</a>
               </div>
           </div>
     </li>
@@ -65,7 +70,7 @@
   </nav>
   <div class="container text-center">
     <div class="row">
-      <div class="col-md-7 col-sm-12  text-black">
+      <div class="col-md-7 col-sm-12  text-black" style="color: rgb(237, 237, 238);">
         <h1>EXCITING ADVENTURE</h1>
         <p>
           Bored of just sitting at home with online classes? Well, it's time for a change now!
@@ -139,7 +144,7 @@
         </div>
   
   
-        <div class="services text-center">
+        <div class="services text-center" id="services">
           <h1>Services</h1>
           <p>
             Name it, you have it!
@@ -149,7 +154,7 @@
               <div class="card" data-aos="flip-right">
                 <div class="card-body" >
                   <div class="title">
-                    <h5 class="card-title"> <!--<div class="card-img-top">-->
+                    <h5 class="card-title" id="music"> <!--<div class="card-img-top">-->
                         <img src="../wHACKiest2021_GeekyBytes/assets/img/music.png" class="img-fluid card-img-top" alt="">
                       <!--</div>-->Music</h5>
                     
@@ -161,7 +166,7 @@
                         <h1>748<br>
                         <small style="font-size:2.5vmin;">signedup</small>
                         </h1>
-                    
+                        <a href="#" class="btn btn-dark px-2 py-1 primary-btn mb-3">Videos!</a>
                         <a href="#" class="card-btn btn btn-dark px-2 py-1 primary-btn mb-3">Sign-up Now</a>
                   </div>
                 </div>
@@ -169,7 +174,7 @@
               <div class="card" data-aos="flip-right">
                 <div class="card-body" >
                   <div class="title">
-                    <h5 class="card-title"><img src="../wHACKiest2021_GeekyBytes/assets/img/dancer.png" class="img-fluid card-img-top" alt="">
+                    <h5 class="card-title" id="dance"><img src="../wHACKiest2021_GeekyBytes/assets/img/dancer.png" class="img-fluid card-img-top" alt="">
                         Dance</h5>
                   </div>
                   <p class="card-text">
@@ -179,6 +184,7 @@
                     <h1>576<br>
                         <small style="font-size:2.5vmin;">signedup</small>
                     </h1>
+                    <a href="#" class="btn btn-dark px-2 py-1 primary-btn mb-3">Videos!</a>
                     <a href="#" class="btn btn-dark px-2 py-1 primary-btn mb-3">Sign-up Now</a>
                   </div>
                 </div>
@@ -186,7 +192,7 @@
               <div class="card" data-aos="flip-right">
                 <div class="card-body" >
                   <div class="title">
-                    <h5 class="card-title"><img src="../wHACKiest2021_GeekyBytes/assets/img/speaking-grp.png" class="img-fluid card-img-top" alt="">
+                    <h5 class="card-title" id="public"><img src="../wHACKiest2021_GeekyBytes/assets/img/speaking-grp.png" class="img-fluid card-img-top" alt="">
                         Public Speaking</h5>
                   </div>
                   <p class="card-text">
@@ -196,6 +202,7 @@
                     <h1>642<br>
                         <small style="font-size:2.5vmin;">signedup</small>
                     </h1>
+                    <a href="#" class="btn btn-dark px-2 py-1 primary-btn mb-3">Videos!</a>
                     <a href="#" class="btn btn-dark px-2 py-1 primary-btn mb-3">Sign-up Now</a>
                   </div>
                 </div>
@@ -203,7 +210,7 @@
               <div class="card" data-aos="flip-right">
                 <div class="card-body" >
                   <div class="title">
-                    <h5 class="card-title"><img src="../wHACKiest2021_GeekyBytes/assets/img/sports.png" class="img-fluid card-img-top" alt="">
+                    <h5 class="card-title" id="sports"><img src="../wHACKiest2021_GeekyBytes/assets/img/sports.png" class="img-fluid card-img-top" alt="">
                         Sports</h5>
                   </div>
                   <p class="card-text">
@@ -213,6 +220,7 @@
                     <h1>352<br>
                         <small style="font-size:2.5vmin;">signedup</small>
                     </h1>
+                    <a href="#" class="btn btn-dark px-2 py-1 primary-btn mb-3">Videos!</a>
                     <a href="#" class="btn btn-dark px-2 py-1 primary-btn mb-3">Sign-up Now</a>
                   </div>
                 </div>
@@ -220,7 +228,7 @@
               <div class="card" data-aos="flip-right">
                 <div class="card-body">
                   <div class="title">
-                    <h5 class="card-title"><img src="../wHACKiest2021_GeekyBytes/assets/img/yoga.png" class="img-fluid card-img-top" alt="">
+                    <h5 class="card-title" id="yoga"><img src="../wHACKiest2021_GeekyBytes/assets/img/yoga.png" class="img-fluid card-img-top" alt="">
                         Yoga</h5>
                   </div>
                   <p class="card-text">
@@ -230,6 +238,7 @@
                     <h1>765<br>
                         <small style="font-size:2.5vmin;">signedup</small>
                     </h1>
+                    <a href="#" class="btn btn-dark px-2 py-1 primary-btn mb-3">Videos!</a>
                     <a href="#" class="btn btn-dark px-2 py-1 primary-btn mb-3">Sign-up Now</a>
                   </div>
                 </div>
@@ -237,7 +246,7 @@
               <div class="card" data-aos="flip-right">
                 <div class="card-body">
                   <div class="title">
-                    <h5 class="card-title"><img src="../wHACKiest2021_GeekyBytes/assets/img/art.png" class="img-fluid card-img-top" alt="">
+                    <h5 class="card-title" id="art"><img src="../wHACKiest2021_GeekyBytes/assets/img/art.png" class="img-fluid card-img-top" alt="">
                         Art</h5>
                   </div>
                   <p class="card-text">
@@ -247,6 +256,7 @@
                     <h1>124<br>
                         <small style="font-size:2.5vmin;">signedup</small>
                     </h1>
+                    <a href="#" class="btn btn-dark px-2 py-1 primary-btn mb-3">Videos!</a>
                     <a href="#" class="btn btn-dark px-2 py-1 primary-btn mb-3">Sign-up Now</a>
                   </div>
                 </div>
@@ -273,7 +283,7 @@
               <div class="d-flex flex-row justify-content-center">
                 <i class="fas fa-desktop fa-3x py-2 pr-3"></i>
                 <div class="text text-left">
-                  <h3 class="pt-1 m-0">Desktop</h3>
+                  <h3 class="pt-1 m-0"><a href="#" style="color: black; text-decoration: none;">Desktop</a></h3>
                   <p class="p-0 m-0">On website</p>
                 </div>
               </div>
@@ -284,7 +294,7 @@
               <div class="d-flex flex-row justify-content-center">
                 <i class="fas fa-mobile-alt fa-3x py-2 pr-3"></i>
                 <div class="text text-left">
-                  <h3 class="pt-1 m-0">On Mobile</h3>
+                  <h3 class="pt-1 m-0"><a href="#" style="color: black; text-decoration: none;">On Mobile</a></h3>
                   <p class="p-0 m-0">On Play Store</p>
                 </div>
               </div>
@@ -294,7 +304,7 @@
     </section>
   
       <!-- Section 4 -->
-      <section class="section-4">
+      <section class="section-4" id="mentors">
         <div class="container text-center">
           <h1 class="text-dark">Our top Mentors</h1>
           <p class="text-secondary">we've got some interesting views about us here!</p>
@@ -311,7 +321,7 @@
                       Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint iure autem recusandae, veniam, illo dolor soluta assumenda
                       minima quia velit officia sit exercitationem nam ipsa, repellendus aut facilis quasi voluptas!
                     </p>
-                    <a href="mentor.html" class="text-secondary text-decoration-none">Go somewhere</a>
+                    <a href="mentor.html" class="text-secondary text-decoration-none">Know More!</a>
                     <p class="text-black-50">Mentor at Bachpan</p>
                   </div>
                 </div>
@@ -331,7 +341,7 @@
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint iure autem recusandae, veniam, illo dolor soluta assumenda
                             minima quia velit officia sit exercitationem nam ipsa, repellendus aut facilis quasi voluptas!
                           </p>
-                          <a href="mentor.html" class="text-secondary text-decoration-none">Go somewhere</a>
+                          <a href="mentor.html" class="text-secondary text-decoration-none">Know More!</a>
                           <p class="text-black-50">Mentor at Bachpan</p>
                         </div>
                       </div>
@@ -347,7 +357,7 @@
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint iure autem recusandae, veniam, illo dolor soluta assumenda
                             minima quia velit officia sit exercitationem nam ipsa, repellendus aut facilis quasi voluptas!
                           </p>
-                          <a href="mentor.html" class="text-secondary text-decoration-none">Go somewhere</a>
+                          <a href="mentor.html" class="text-secondary text-decoration-none">Know More!</a>
                           <p class="text-black-50">Mentor at Bachpan</p>
                         </div>
                       </div>
@@ -367,7 +377,7 @@
                       Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint iure autem recusandae, veniam, illo dolor soluta assumenda
                       minima quia velit officia sit exercitationem nam ipsa, repellendus aut facilis quasi voluptas!
                     </p>
-                    <a href="mentor.html" class="text-secondary text-decoration-none">Go somewhere</a>
+                    <a href="mentor.html" class="text-secondary text-decoration-none">Know More!</a>
                     <p class="text-black-50">Mentor at Bachpan</p>
                   </div>
                 </div>

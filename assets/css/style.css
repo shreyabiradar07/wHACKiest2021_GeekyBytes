@@ -26,6 +26,12 @@ section{
  .navbar{
     background-color: #1353d4;
   }
+  .navbar-light .navbar-brand{
+    color: whitesmoke;
+  }
+  .nav-link{
+    color: whitesmoke;
+  }
   header a {
     font-family: var(--Fredoka);
     font-size: 0.9em;

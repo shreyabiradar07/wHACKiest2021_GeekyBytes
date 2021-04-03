@@ -342,4 +342,13 @@ section{
   footer .column i + i {
     padding: 0 0.5em;
   }
-  .show {display: block;}
+  
+
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.815);
+    z-index: 9999;
+    transition: all 1.5s ease;
+  }

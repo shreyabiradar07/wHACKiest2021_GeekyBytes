@@ -13,7 +13,6 @@ body{
 }
 .breadcrumb{
     background-color: #138dd44d;
-    width: 100%;
     
 }
 .breadcrumb-item>a{
@@ -23,6 +22,7 @@ body{
     color: #ddd;
     text-decoration: none;
 }
+
 .btn{
     color: #212529;
     background-color: #1abc9c;
@@ -76,10 +76,7 @@ body{
 .shadow-none {
     box-shadow: none!important;
 }
-<<<<<<< HEAD
 
-=======
->>>>>>> 1f24b7124da73cf4ab1d9aba5c753a57853bd142
 .container{
     position: relative;
     background: rgba(255,255,255,0.1);
@@ -87,14 +84,6 @@ body{
     color:#fff;
 }
 .text-muted {
-<<<<<<< HEAD
-    color: rgb(119, 239, 243)!important;
-}
-
-ul.list-group li
-{
-    background: rgba(255,255,255,0.1);
-=======
     color: rgb(240, 239, 239)!important;
 }
 ul.list-group li
@@ -106,5 +95,4 @@ ul.list-group li
 }
 .text-info{
     color: #1a66ca !important;
->>>>>>> 1f24b7124da73cf4ab1d9aba5c753a57853bd142
 }

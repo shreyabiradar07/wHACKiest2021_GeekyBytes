@@ -99,17 +99,19 @@ section{
 
   header .container .col-md-7 h6 {
     padding: 1vmin;
-    letter-spacing: 4px;
+    letter-spacing: 6px;
   }
   
   header .container .col-md-7 h1 {
     font-size: 8.5vmin;
     font-weight: bold;
     padding: 0.1em 0em;
+    letter-spacing: 6px;
   }
   
   header .container .col-md-7 p {
     padding: 1vmin 5vmin;
+    font-size: 3.3vmin;;
   }
   
   .primary-btn {
@@ -160,7 +162,7 @@ section{
   }
 
   /***section 2***/
-
+  
   .cover {
     width: 100%;
     height: 55vmin;
@@ -173,18 +175,19 @@ section{
   .cover .content {
     width: 100%;
     height: 100%;
+    font-family: var(--Fredoka);
     background: rgba(0, 0, 0, 0.7);
     padding-top: 19vmin;
   }
   .cover .content > h1 {
-    font-family: var(--Fredoka);
+    
     font-size: 6vmin;
     color: whitesmoke;
   }
   .cover .content > p {
-    font-family: var(--Rubik);
     font-size: 2vmin;
     color: #e5e5e5;
+    letter-spacing: 2px;;
   }
 
   .numbers .rect {
@@ -212,10 +215,13 @@ section{
     font-family: var(--Lobster);
   }
 
+  .services{
+    font-family: var(--Fredoka);
+  }
   .services > h1 {
     padding-top: 15vmin;
     padding-bottom: 0.1em;
-    font-family: var(--Fredoka);
+    
   }
   
   
@@ -223,6 +229,7 @@ section{
     color: var(--light-black);
     font-size: 3vmin;
     padding-bottom: 10vmin;
+    
   }
   
   .services .cards .card {
@@ -264,6 +271,7 @@ section{
 
   .card-body .pricing > a {
     font-size: 2vmin;
+    font-family: var(--Rubik);
   }
 
   
@@ -274,6 +282,7 @@ section{
     height: 70vmin;
     margin-top: 15vmin;
     background: var(--bggradient);
+    font-family: var(--Fredoka);
   }
   
   .section-3 .col-md-12 > h1 {
@@ -287,6 +296,8 @@ section{
     padding-bottom: 2em;
     color: var(--light-gray);
     font-size: 3vmin;
+    letter-spacing: 2px;
+
   }
   
   .section-3 .desktop {
@@ -305,6 +316,9 @@ section{
     font-size: 2vmin;
   }
   /***section 4***/
+  .section-4{
+    font-family: var(--Fredoka);
+  }
   .section-4 .container h1 {
     font-size: 6vmin;
     padding-top: 14vmin;
@@ -340,6 +354,7 @@ section{
     background: rgba(0, 0, 0, 0.815);
     overflow-x: hidden;
     padding: 14vmin 18vmin;
+    font-family: var(--Fredoka);
   }
 
   footer input {

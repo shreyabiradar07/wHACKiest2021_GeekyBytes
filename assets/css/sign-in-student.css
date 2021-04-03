@@ -3,11 +3,11 @@
 body{
     font-family: "Fredoka One", cursive;;
     color: #6c757d;
-    background:linear-gradient(to right,  #13bad4,#1353d4);
+    background:linear-gradient(to right top,  #00F260,#0575E6);
     margin-top:20px;
 }
 .breadcrumb{
-    background-color: #1353d4;
+    background-color: #138dd44d;
     
 }
 .breadcrumb-item>a{

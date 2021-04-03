@@ -111,3 +111,7 @@ text-decoration:line-through;;
     color: #ddd;
     text-decoration: none;
 }
+
+.row{
+    height: 50vh;
+}

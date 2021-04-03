@@ -16,7 +16,19 @@ body{
     
 }
 .breadcrumb-item>a{
-    color:#e2e8f0;
+    color:#000;
+}
+.breadcrumb-item>a:hover{
+    color: #ddd;
+    text-decoration: none;
+}
+.btn{
+    color: #212529;
+    background-color: #1abc9c;
+    border: none;
+}
+.btn:hover{
+    background-color:#1abc9c ;
 }
 .card {
     box-shadow: 0 1px 3px 0 rgba(0,0,0,.1), 0 1px 2px 0 rgba(0,0,0,.06);

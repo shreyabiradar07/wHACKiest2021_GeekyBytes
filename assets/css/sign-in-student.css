@@ -17,6 +17,12 @@ body{
     color: #ddd;
     text-decoration: none;
 }
+.btn{
+    background-color: #1abc9c;
+}
+.btn:hover{
+    color: #fff;
+}
 
 .card-box {
     background-color: #fff;
@@ -34,8 +40,12 @@ body{
     border-radius: 50%!important;
 }
 .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
-    color: #fff;
+    color: #212529;
     background-color: #1abc9c;
+    letter-spacing: 1px;
+}
+.nav-pills .nav-link.active:hover{
+    color: #fff;
 }
 .nav-pills .nav-link {
     border-radius: .25rem;

@@ -1,8 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Lobster&family=Pacifico&family=Rubik&display=swap');
+
 body{
+    font-family: "Fredoka One", cursive;;
     color: #6c757d;
     background:linear-gradient(to right,  #13bad4,#1353d4);
     margin-top:20px;
 }
+.breadcrumb{
+    background-color: #1353d4;
+    
+}
+.breadcrumb-item>a{
+    color:#000;
+}
+.breadcrumb-item>a:hover{
+    color: #ddd;
+    text-decoration: none;
+}
+
 .card-box {
     background-color: #fff;
     background-clip: border-box;

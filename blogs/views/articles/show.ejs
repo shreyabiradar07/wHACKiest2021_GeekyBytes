@@ -11,22 +11,28 @@
 </head>
 <!-- Add CSS styling in this style tag -->
 <style>
+ body{
+  margin: 1rem;
+  padding: 1rem;
+   background-color: rgb(197, 248, 252);
+   border: 1px solid blue;
+ }
 </style>
 
 <body>
 
- <div class="container">
+ <div class="container" style="margin: 1rem; padding: 1rem;">
 
-  <h1 class="mb-1">
+  <h1 class="mb-1" style="margin: 0.5rem;padding: 0.5rem;">
    <%=article.title %>
   </h1>
-  <div class="text-muted mb-2">
+  <div class="text-muted mb-2" style="margin: 0.5rem;padding: 0.5rem;">
    <%= article.createdAt.toLocaleDateString()%>
   </div>
-  <a href="/" class="btn btn-secondary">All Articles</a>
-  <a href="/articles/edit/<%=article.id%>" class="btn btn-info">Edit</a>
+  <a href="/" class="btn btn-secondary" style="margin: 0.5rem;padding: 0.5rem;">All Articles</a>
+  <a href="/articles/edit/<%=article.id%>" class="btn btn-info" style="margin: 0.5rem;padding: 0.5rem;">Edit</a>
 
-  <div>
+  <div style="margin: 1rem;">
    <%- article.sanitizedHtml%>
   </div>
  </div>

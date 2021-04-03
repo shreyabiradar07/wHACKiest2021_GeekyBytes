@@ -9,7 +9,8 @@ Website link:
  https://shreyabiradar07.github.io/wHACKiest2021_GeekyBytes/.
  
  Solution for Challenge 1:
- Adeed app icon from: https://images.app.goo.gl/VtrxmQ9kiQC921sH8
+ Added app icon from: https://images.app.goo.gl/VtrxmQ9kiQC921sH8
+ 
  Added Icons under Services Component:
  www.iconfinder.com
 

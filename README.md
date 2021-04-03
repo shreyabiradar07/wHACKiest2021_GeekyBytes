@@ -26,20 +26,21 @@ Video Link:
 
 https://drive.google.com/file/d/1zz6DDNwhGhsagRVZlbgbWh112OjvvqGB/view?usp=sharing
 
-# Commands for blog application(hosted locally):
+ Commands for blog application(hosted locally):
 $ npm init
 
-# dependencies to be installed:
+ dependencies to be installed:
 $ npm install express mongoose ejs dompurify slugify marked method-override nodemon jsdom
 
 $ cd blogs
 
-# path is set using current ip address(192.168.43.155) and port number(3300) in server.js(line no. 23)
+path is set using current ip address(192.168.43.155) and port number(3300) in server.js(line no. 23)
 
-# use the below link(with your current IPv4 address) inside the href tag, in index.html(line no.52)
+use the below link(with your current IPv4 address) inside the href tag, in index.html(line no.52):
+
 http://192.168.43.155:3300
 
-# the same above link could be used to host the blog application locally
+ the same above link could be used to host the blog application locally
 
-# To start the application
+ To start the application:
 $ nodemon server

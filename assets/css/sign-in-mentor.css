@@ -13,6 +13,7 @@ body{
 }
 .breadcrumb{
     background-color: #138dd44d;
+    width: 100%;
     
 }
 .breadcrumb-item>a{

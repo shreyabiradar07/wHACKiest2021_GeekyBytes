@@ -20,7 +20,8 @@ section{
     --light-gray: rgba(255, 255, 255, 0.877);
   }
 
-  .emoji{
+  .logo{
+    width:15vmin ;
      padding-right: 0.5rem; 
   }
  .navbar{
@@ -68,6 +69,7 @@ section{
   
   header .nav-item {
     padding: 0.9em;
+    font-size: 1.2rem;
   }
   
   header .navbar-brand {

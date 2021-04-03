@@ -6,6 +6,7 @@ Website link:
  
  Solution for Challenge 1:
  Added Icons under Services Component
+ www.iconfinder.com
 
 Solution for Challenge 2:
 On pressing logo in landing page , a confetti burst on the screen is observed.

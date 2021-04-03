@@ -222,7 +222,7 @@ section{
   .services .cards .card {
     width: 20rem;
     margin: 3vmin 3vmin;
-    height: 20rem;
+    height: 23rem;
   }
   
   .cards div {
@@ -240,7 +240,11 @@ section{
     padding: 2.0rem 2.5rem;
     color: var(--light-black);
   }
-  
+  .cards .title .card-img-top{
+      border-radius: 0rem;
+      width: 5vmin;
+      /*margin: auto;*/
+  }
   .card-body .pricing {
     background: rgba(208, 241, 241, 0.199);
     border-top-right-radius: 170px;

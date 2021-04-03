@@ -17,6 +17,12 @@ body{
     color: #ddd;
     text-decoration: none;
 }
+.btn{
+    background-color: #1abc9c;
+}
+.btn:hover{
+    color: #fff;
+}
 
 .card-box {
     background-color: #fff;
@@ -25,6 +31,7 @@ body{
     padding: 1.5rem;
     margin-bottom: 24px;
     border-radius: .25rem;
+    background-color: rgba(255, 255, 255, 0.131);
 }
 .avatar-xl {
     height: 6rem;
@@ -34,8 +41,12 @@ body{
     border-radius: 50%!important;
 }
 .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
-    color: #fff;
+    color: #212529;
     background-color: #1abc9c;
+    letter-spacing: 1px;
+}
+.nav-pills .nav-link.active:hover{
+    color: #fff;
 }
 .nav-pills .nav-link {
     border-radius: .25rem;
@@ -254,4 +265,13 @@ body{
         left: 0 !important;
         margin-bottom: 10px;
     }
+}
+.container{
+    position: relative;
+    background: rgba(255,255,255,0.1);
+    backdrop-filter: blur(5px);
+    color:#fff;
+}
+.text-muted {
+    color: rgb(240, 239, 239)!important;
 }

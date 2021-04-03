@@ -20,7 +20,7 @@ mongoose
     useUnifiedTopology: true,
     useCreateIndex: true,
   })
-  .then((result) => app.listen(3000, "192.168.43.155"))
+  .then((result) => app.listen(3300, "192.168.43.155"))
   .catch((err) => {
     console.log(err);
   });

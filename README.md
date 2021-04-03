@@ -27,9 +27,11 @@ Video Link:
 https://drive.google.com/file/d/1zz6DDNwhGhsagRVZlbgbWh112OjvvqGB/view?usp=sharing
 
  Commands for blog application(hosted locally):
+
 $ npm init
 
  dependencies to be installed:
+ 
 $ npm install express mongoose ejs dompurify slugify marked method-override nodemon jsdom
 
 $ cd blogs
@@ -43,4 +45,5 @@ http://192.168.43.155:3300
  the same above link could be used to host the blog application locally
 
  To start the application:
+
 $ nodemon server

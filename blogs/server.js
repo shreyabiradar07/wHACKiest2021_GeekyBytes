@@ -12,9 +12,10 @@ const app = express();
 //   .catch((err) => {
 //     console.log(err);
 //   });
-
+const dbURL =
+  "mongodb+srv://shreya:badla@1234$@blog.c50no.mongodb.net/blog-db?retryWrites=true&w=majority";
 mongoose
-  .connect("mongodb://localhost/blog", {
+  .connect(dbURL, {
     useNewUrlParser: true,
     useUnifiedTopology: true,
     useCreateIndex: true,

@@ -26,12 +26,17 @@ Video Link:
 
 https://drive.google.com/file/d/1zz6DDNwhGhsagRVZlbgbWh112OjvvqGB/view?usp=sharing
 
+Blogs is a backend application and can be run on local server since github does not support backend.. It wasn't possible to deploy it.
+
+Before starting the actual website please host the backend part locally using your ip address, update it as listed below because it's been hosted locally.
+
+
  Commands for blog application(hosted locally):
 
 $ npm init
 
  dependencies to be installed:
- 
+
 $ npm install express mongoose ejs dompurify slugify marked method-override nodemon jsdom
 
 $ cd blogs
@@ -40,9 +45,9 @@ path is set using current ip address(192.168.43.155) and port number(3300) in se
 
 use the below link(with your current IPv4 address) inside the href tag, in index.html(line no.52):
 
-http://192.168.43.155:3300
+http://192.168.43.155:3300(our local host)
 
- the same above link could be used to host the blog application locally
+ the format of the above link could be used to locally host the blog application.
 
  To start the application:
 
